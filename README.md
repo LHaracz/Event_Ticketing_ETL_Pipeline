@@ -28,17 +28,15 @@ This project implements a **repeatable ETL-style workflow** that programmaticall
 
 ## Data Flow
 
-Eventbrite API
-├── Events
-├── Venues
-└── Orders / Attendees
-↓
-Normalization & Deduplication
-↓
-Airtable Base
-├── Events
-├── Venues
-└── Ticket Sales
+Eventbrite API 
+→ Events 
+→ Venues 
+→ Orders / Attendees 
+→ Normalization & Deduplication
+→ Airtable Base 
+→ Events
+→ Venues
+→ Ticket Sales
 
 
 ---
